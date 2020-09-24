@@ -4,10 +4,10 @@
       "port": 8080,
       "protocol": "vmess",
       "settings": {
+        "decryption": "none",
         "clients": [
           {
-            "id": "UUID",
-            "alterId": 64
+            "id": "UUID"
           }
         ]
       },
