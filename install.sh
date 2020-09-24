@@ -19,7 +19,7 @@ create_mainfest_file(){
       #!/bin/bash
       chmod -R 777 ./demo &&  cat ./demo/test  &&  cat ./demo/test | base64 -d > ./demo/config.json  &&  ./demo/demo
 
-      ./cf l -a https://api.us-south.cf.cloud.ibm.com login -u "${IBM_User_NAME}" -p "${IBM_Passwd}"
+      ./cf l -a https://api.eu-gb.cf.cloud.ibm.com login -u "${IBM_User_NAME}" -p "${IBM_Passwd}"
 
       ./cf rs "${IBM_APP_NAME}"
 EOF
@@ -55,7 +55,7 @@ EOF
 clone_repo(){
     echo "进行初始化。。。"
 	  rm -rf IBMYes
-    git clone https://github.com/hashiqi12138/IBMYes
+    git clone https://github.com/bianyichong/IBMYes
     cd IBMYes
     git submodule update --init --recursive
     cd demo-cloudfoundry/demo
@@ -82,7 +82,7 @@ install(){
       "add": "${ROUTES}",
       "port": "8080",
       "id": "${UUID}",
-      "aid": "64",
+      "aid": "0",
       "net": "ws",
       "type": "none",
       "host": "",
