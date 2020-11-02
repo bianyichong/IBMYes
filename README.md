@@ -2,7 +2,7 @@
 
 切换到伦敦地区
 
-ibmcloud target -r eu-g
+ibmcloud target -r eu-gb
 
 打开命令行，右上角选择相应的地区（Dallas），粘贴一键安装脚本：
 
