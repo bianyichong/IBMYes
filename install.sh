@@ -82,7 +82,7 @@ install(){
       "add": "${ROUTES}",
       "port": "8080",
       "id": "${UUID}",
-      "aid": "0",
+      "aid": "2",
       "net": "ws",
       "type": "none",
       "host": "",
