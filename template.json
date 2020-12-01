@@ -34,7 +34,7 @@
         "clients": [
           {
             "id": "UUID",
-            "alterId": 0
+            "alterId": 2
           }
         ]
       },
